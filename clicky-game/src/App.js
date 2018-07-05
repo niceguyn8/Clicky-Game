@@ -1,14 +1,21 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from "./components/Header";
+import Wrapper from "./components/Wrapper";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header>asdfasdfas</Header>
+      <Wrapper>
+        <Header>Nic Cage Clicky Game</Header>
 
-      </div>
+        <h3 className="score">
+
+          Correct Guesses:
+
+        </h3>
+
+      </Wrapper>
     );
   }
 }
