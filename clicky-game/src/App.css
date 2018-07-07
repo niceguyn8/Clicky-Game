@@ -1,5 +1,7 @@
 body {
   text-align: center;
+  background-color: silver;
+  color: aqua;
 }
 
 .App-logo {
@@ -22,7 +24,8 @@ body {
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+h3 {
+  background-color: black;
+  margin-top: 0px;
+  padding-bottom: 15px;
 }
